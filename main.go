@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(easy.Generate(5))
+	nums := []int{6, 5, 4, 3, 2, 3, 2}
+	fmt.Println(easy.FindPeakElement(nums))
 }
