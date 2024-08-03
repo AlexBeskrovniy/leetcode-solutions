@@ -1,4 +1,4 @@
-package easy
+package medium
 
 func SearchRange(nums []int, target int) []int {
 	var result = []int{-1, -1}

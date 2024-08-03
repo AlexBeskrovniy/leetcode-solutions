@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"leetcode/solutions/easy"
+	"leetcode/solutions/medium"
 )
 
 func main() {
 	nums := []int{2, 2}
 	target := 2
-	fmt.Println(easy.SearchRange(nums, target))
+	fmt.Println(medium.SearchRange(nums, target))
 }

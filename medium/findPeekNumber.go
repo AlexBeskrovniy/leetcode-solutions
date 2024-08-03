@@ -1,4 +1,4 @@
-package easy
+package medium
 
 func search(nums []int, n int) int {
 	if n == 0 || n == len(nums)-1 {
